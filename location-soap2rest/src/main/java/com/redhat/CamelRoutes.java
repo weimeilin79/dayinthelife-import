@@ -16,8 +16,6 @@ public class CamelRoutes extends RouteBuilder {
 	@Autowired
     private CamelContext camelContext;
 	
-	private static final String SERVICE_ADDRESS = "http://localhost:8080/ws/location";
-	private static final String WSDL_URL = "http://localhost:8080/ws/location?wsdl";
 
 	@Override
 	public void configure() throws Exception {
