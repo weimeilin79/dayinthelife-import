@@ -152,10 +152,10 @@
 		  <artifactId>camel-restdsl-swagger-plugin</artifactId>
 		  <version>2.21.0</version>
 		  <configuration>
-		    <specificationUri>src/spec/location.json</specificationUri>
+		    <specificationUri>/projects/dayinthelife-import/location-service/src/spec/location.json</specificationUri>
 		    <className>CamelRoutes</className>
 		    <packageName>com.redhat</packageName>
-		    <outputDirectory>src/main/java</outputDirectory>      
+		    <outputDirectory>/projects/dayinthelife-import/location-service/src/main/java</outputDirectory>      
 		  </configuration>
 	  </plugin>
     </plugins>
