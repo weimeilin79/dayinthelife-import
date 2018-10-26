@@ -23,7 +23,7 @@ public class CamelRoutes extends RouteBuilder {
 		
 		
 		restConfiguration()
-			.component("undertow")
+			.component("servlet")
 	    	.port(8080)
 	    	.bindingMode(RestBindingMode.json)
 			.contextPath("/")
