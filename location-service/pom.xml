@@ -170,7 +170,7 @@
 		    <specificationUri>src/spec/location.json</specificationUri>
 		    <className>CamelRoutes</className>
 		    <packageName>com.redhat</packageName>
-		    <outputDirectory>src/main/java</outputDirectory>      
+		    <outputDirectory>${project.basedir}/src/main/java</outputDirectory>      
 		  </configuration>
 	  </plugin>
     </plugins>
