@@ -167,7 +167,7 @@
 		  <artifactId>camel-restdsl-swagger-plugin</artifactId>
 		  <version>2.21.0</version>
 		  <configuration>
-		    <specificationUri>src/spec/location.json</specificationUri>
+		    <specificationUri>${project.basedir}/src/spec/location.yml</specificationUri>
 		    <className>CamelRoutes</className>
 		    <packageName>com.redhat</packageName>
 		    <outputDirectory>${project.basedir}/src/main/java</outputDirectory>      
